@@ -1,0 +1,6 @@
+<div class="alert alert-dismissible fade show" role="alert" [ngClass]="[type === 'SUCCESS' ? 'alert-success' : 'alert-danger']">
+    <ng-content></ng-content>
+    <button type="button" class="close" (click)="close()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+</div>

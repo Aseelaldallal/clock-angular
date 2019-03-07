@@ -1,0 +1,11 @@
+
+
+<div *ngIf="loading">Loading ...</div>
+
+<div *ngIf="!loading">
+    <div class="log" *ngFor="let log of logs"> 
+        <p>Name: {{log.name}}</p>
+        <p>Type: {{log.type}}</p>
+        <p>Time: {{log.date}}</p>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button {
+    width: 100px;
+}
+
+button:first-child {
+    margin-right: 20px;
+}
+
+.active {
+    border: 1px solid black;
+}
